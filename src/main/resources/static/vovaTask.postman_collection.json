@@ -1,0 +1,180 @@
+{
+	"info": {
+		"_postman_id": "7158b398-ef7d-4ea2-8112-648a4edda404",
+		"name": "vovaTask",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/pushCard",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/pushCard?number=123456789&pin=1234",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pushCard"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "123456789"
+						},
+						{
+							"key": "pin",
+							"value": "1234"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/addCash",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/addCash?number =123456789&pin=1234&cash=200",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"addCash"
+					],
+					"query": [
+						{
+							"key": "number ",
+							"value": "123456789"
+						},
+						{
+							"key": "pin",
+							"value": "1234"
+						},
+						{
+							"key": "cash",
+							"value": "200"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/takeCash",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/takeCash?number=123456789&pin=1234&cash=500",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"takeCash"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "123456789"
+						},
+						{
+							"key": "pin",
+							"value": "1234"
+						},
+						{
+							"key": "cash",
+							"value": "500"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/toForwardCash",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/toForwardCash?number=123456789&number2=987654321&pin=1234&cash=200",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"toForwardCash"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "123456789"
+						},
+						{
+							"key": "number2",
+							"value": "987654321"
+						},
+						{
+							"key": "pin",
+							"value": "1234"
+						},
+						{
+							"key": "cash",
+							"value": "200"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
